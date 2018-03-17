@@ -84,4 +84,40 @@ public int recur(int a, int b) {
 	}
 ```
 
+### The Application Class to check output for these methods
+
+```java
+import java.util.Scanner;
+
+public class RecursiveApp {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		RecursiveMethods demo = new RecursiveMethods();
+
+		System.out.println("Enter the example # you would like to test");
+		int example = input.nextInt();
+
+		if (example == 1) {
+			System.out.println(demo.mystery(1));
+		} else if (example == 2) {
+			System.out.println(demo.mystery(4, 3, 5));
+		} else if (example == 3) {
+			System.out.println(demo.recur(27));
+		} else if (example == 4) {
+			System.out.println(demo.recur(3, 2, 6));
+		} else if (example == 5) {
+			System.out.println(demo.recur(6, 8));
+		} else if (example == 6) {
+			System.out.println(demo.result(5));
+		} else {
+			System.out.println("invalid input");
+		}
+
+	}
+
+}
+```
+
 
