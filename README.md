@@ -11,7 +11,7 @@
 
 ## Base Case vs. Case that iterates closer and closer to termination
 - **Base Case**: Will be the final run in the recursive method call (because it needs to exit at some point)
-- **Iterative Case**" Will bring the method closer to the base with each iteration 
+- **Iterative Case** Will bring the method closer to the base with each iteration 
 
 ### Example #1
 
