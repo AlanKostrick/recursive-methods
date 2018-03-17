@@ -84,7 +84,7 @@ public int recur(int a, int b) {
 	}
 ```
 
-### The Application Class to check output for these methods
+### The application class to check output for these methods
 
 ```java
 import java.util.Scanner;
