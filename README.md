@@ -8,6 +8,8 @@
 - Execute each of these code blocks in Eclipse to see the end result...sketch the process that gets us there from start to finish
 - Follow along with my instructional video to see how I have build out the first few examples
 
+### Example #1
+
 ``` java
 public int mystery(int n) {
 		if(n<0) {
@@ -17,3 +19,5 @@ public int mystery(int n) {
 		}
 	}
 ```
+
+
