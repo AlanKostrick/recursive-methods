@@ -3,10 +3,15 @@
 ## Objectives:
 - Students will be able to run and test recursive methods and map their output 
 - Students will be able to develop a basic understanding of the functionalities of recursive method calls
+- Students will understand the 2 parts of a recursive method call
 
 ## Your task:
 - Execute each of these code blocks in Eclipse to see the end result...sketch the process that gets us there from start to finish
 - Follow along with my instructional video to see how I have build out the first few examples
+
+## Base Case vs. Case that iterates closer and closer to termination
+- **Base Case**: Will be the final run in the recursive method call (because it needs to exit at some point)
+- **Iterative Case**" Will bring the method closer to the base with each iteration 
 
 ### Example #1
 
